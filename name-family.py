@@ -5,7 +5,7 @@ class Student:
         self.courseMarks = {}
         self.name = name + " " + family
     
-    def addCourseMarks(self, course, mark):
+    def addCourseMark(self, course, mark):
         self.courseMarks[course] = mark;
         
     def average(self):
@@ -19,6 +19,6 @@ class Student:
         print(self.name + " has no courses.")
     
 s1 = Student("John", "Baker")
-s1.addCourseMarks("c401", 44)
-s1.addCourseMarks("c307", 88)
+s1.addCourseMark("c401", 44)
+s1.addCourseMark("c307", 88)
 s1.average()
