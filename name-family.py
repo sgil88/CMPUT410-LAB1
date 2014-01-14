@@ -6,7 +6,7 @@ class Student:
         self.name = name + " " + family
     
     def addCourseMark(self, course, mark):
-        self.courseMarks[course] = mark;
+        self.courseMarks[course] = mark
         
     def average(self):
         if len(self.courseMarks) > 0:
